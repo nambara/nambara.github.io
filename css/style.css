@@ -1,0 +1,170 @@
+@charset "UTF-8"; /* 文字化け防ぐ */
+
+/* 共通部分
+----------------------------- */
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    line-height: 1.7;
+    color: #432c02;
+}
+
+a {
+  text-decoration: none;
+  color: #432c02;
+}
+
+/* HEADER
+----------------------------- */
+.page-header {
+  display: flex;
+  justify-content: space-between; 
+}
+
+/* FOOTER
+----------------------------- */
+footer {
+  background: #432c02;
+  text-align: center;
+  padding: 26px 0;
+}
+footer p {
+  color: #f6f0cc;
+  font-size: 0.875rem;
+}
+
+.big-bg {
+  background: #f6f0cc;
+}
+/* 見出し */
+.page-title {
+  font-size: 5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 20px;
+}
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+.main-nav {
+  display: flex;
+  list-style-type: none;
+  font-size: 1.25rem;
+  margin-top: 34px;
+}
+.main-nav a {
+  margin: 0 20px;
+}
+.main-nav a:hover {
+  color: #ff6c94;
+}
+.logo {
+  margin-top: 20px;
+  width: 3rem; 
+}
+
+/* HOME
+----------------------------- */
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-content h1 {
+  font-size: 6rem;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0 -150px 0 0;
+  z-index: 1;
+}
+
+.clover {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 420px;
+  margin: 20px 0;
+}
+.clover img {
+  margin: 5px;
+}
+.upper-l {
+  border-radius: 50px 60px 0 60px;
+  width: 200px;
+  height: 200px;
+  background: #ff6c94;
+}
+.upper-r {
+  border-radius: 60px 50px 60px 0;
+  width: 200px;
+  height: 200px; 
+  background: #3aacad;
+}
+.bottom-l {
+  border-radius: 60px 0 60px 50px;
+  width: 200px;
+  height: 200px;
+  background: #3aacad;
+}
+.bottom-r {
+  border-radius: 0 60px 50px 60px;
+  width: 200px;
+  height: 200px;
+  background: #3aacad;
+}
+
+/* ABOUT
+----------------------------- */
+#about {
+  height: 270px;
+  margin-bottom: 30px;
+}
+.about-content {
+  
+}
+.cont {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+.picture {
+  width: 45%;
+  max-height: 200px;
+}
+.article {
+  width: 55%;
+  margin-left: 10px;
+}
+.article h3 {
+  font-size: 2rem;
+}
+.article ul {
+  list-style-type: none;
+}
+
+/* WORK
+----------------------------- */
+#work {
+  height: 270px;
+  margin-bottom: 30px;
+}
+.work-contents {
+  
+}
+
+/* 準備中 */
+.prepare {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prepare img {
+  max-height: 150px;
+}
