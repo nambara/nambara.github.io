@@ -158,6 +158,20 @@ footer p {
   
 }
 
+/* BLOG
+----------------------------- */
+#blog {
+  height: 270px;
+  margin-bottom: 30px;
+}
+
+/* CONTACT
+----------------------------- */
+#contact {
+  height: 270px;
+  margin-bottom: 30px;
+}
+
 /* 準備中 */
 .prepare {
   display: flex;
